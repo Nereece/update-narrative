@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+
+
+/*1920S CSS */
+
+#first-page {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+#header-20{
+    display: flex;
+    justify-content: center;
+}
+
+/* 1920s heading with gold box */
+#h-1920 {
+    font-family: 'Limelight', cursive;
+    color: aliceblue;
+    font-size: 80px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    margin-top: 42px;
+    background-color: rgb(151, 121, 81);
+    width: 465px;
+    height: 95px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 247.5px;
+}
+
+
+/* 1920s top left header img */
+#L20-header {
+    position: absolute;
+    width: 527px;
+    height: 35px;
+    left: 0px;
+    top: 72px;
+    background: url(../images/L20-header.png);
+}
+
+/* 1920s top right header img */
+#R20-header {
+    position: absolute;
+    width: 527px;
+    height: 35px;
+    left: 997px;
+    margin-right: 0;
+    top: 72px;
+    background: url(../images/L20-header.png);
+}
+
+
+#column1-20 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 125px;
+}
+/* header - trends of the 20s */
+#P1-20 {
+    color: aliceblue;
+    font-family: 'Limelight', cursive;
+    font-size: 20px;
+}
+
+/* p following header */
+#P2-20 {
+    color: aliceblue;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    width: 250px;
+}
+
+
+
+
+
+/* end of 1920s CSS */

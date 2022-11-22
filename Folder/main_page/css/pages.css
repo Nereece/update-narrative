@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+}
+
+
+/*1920S CSS */
+
+#first-page {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+/* container for header */
+#header-20 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 109px;
+}
+
+/* 1920s heading text */
+#h-1920 {
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(151, 121, 81);
+    margin-top: 15px;
+    margin-left: 35px;
+    cursor: default;
+}
+
+
+/* 1920s top header img */
+#T20-header {
+    width: 890px;
+    height: 35px;
+    border-radius: 15px;
+    /* margin-left: 20px; */
+    margin-top: 47px;
+    background: url(../images/L20-header.png);
+}
+
+#column1-20 {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-left: 25px;
+    margin-top: 53px;
+}
+
+/* home page button */
+#home-page20 {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Limelight', cursive;
+    display: flex;
+    margin-bottom: 40px;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a #home-page20:hover {
+    color: rgb(0, 0, 0);
+}
+
+a #home-page20:hover {
+    background-color: rgb(151, 121, 81);
+    transition: .3s;
+}
+
+a #home-page20:active {
+    background-color: rgb(100, 74, 41);
+}
+
+
+/* left column box-background colour and margins for images */
+#bg-color {
+    background-color: rgb(151, 121, 81)
+}
+
+.women-column {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+/* header - trends of the 20s */
+#P1-20 {
+    color: aliceblue;
+    font-family: 'Limelight', cursive;
+    font-size: 20px;
+    cursor: default;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* para after header */
+#P2-20 {
+    color: aliceblue;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    width: 250px;
+    cursor: default;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    text-align: center;
+}
+
+
+/* top row of 3 images */
+#row1-20 {
+    display: flex;
+    flex-direction: row;
+    height: 290px;
+    width: 480px;
+    margin-top: 10px;
+}
+
+/* 2nd column of text and image*/
+#column2-20 {
+    width: 600px;
+    padding-left: 10px;
+}
+
+/* Dress for every year of the decade css */
+#P3-20 {
+    color: aliceblue;
+    font-family: 'Limelight', cursive;
+    font-size: 20px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#column3-20 {
+    display: flex;
+    flex-direction: column;
+    height: 286px;
+    width: 197px;
+}
+
+
+#P4-20 {
+    color: aliceblue;
+    font-family: 'Limelight', cursive;
+    font-size: 20px;
+    cursor: default;
+}
+
+#P5-20 {
+    color: aliceblue;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    cursor: default;
+}
+
+/* END of 1920s CSS */
+
+
+
+
+/* start of 30-40 css */
+#second-page{
+display: flex;
+flex-direction: row;
+}
+
+#column1-30{
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+background: #2A326D;
+flex-direction: column;
+
+}
+
+.title1-30{
+font-family: 'Playball', cursive;
+color: aliceblue;
+font-size: 70px;
+margin-left: 23px;
+margin-top: 15px;
+cursor: default;
+}
+
+/* home page button */
+#home-page30 {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a #home-page30:hover {
+    color: #2A326D;
+}
+
+a #home-page30:hover {
+    background-color: aliceblue;
+    transition: .3s;
+}
+
+a #home-page30:active {
+    background-color: grey;
+}
+
+
+.woman-30{
+    border: 5px solid #BC9A67;
+    }
+
+    #woman-40{
+        margin-top: 15px;
+    }
+
+.dresses-30{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.P1-30{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D90707;
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    cursor: default;
+}
+
+.P2-30{
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 12px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+
+#box1-30{
+box-sizing: border-box;
+width: 322px;
+height: 560px;
+background: #FFFFFF;
+border: 5px solid #D90707;
+margin-top: 15px;
+}
+
+#box2-30{
+    box-sizing: border-box;
+    width: 322px;
+    height: 605px;
+    background: #FFFFFF;
+    border: 5px solid #D90707;
+    margin-top: 15px;
+    }
+
+#column2-30{
+    width: 800px;
+}
+
+#column3-30{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2A326D;
+}
+/* header
+font-family: 'Playball', cursive; */
+
+/* regular font
+font-family: 'Libre Baskerville', serif; */
+
+
+/* END */
+
+
+
+/* start of 1950 css */
+
+#third-page{background-color: #B4DDE3;
+    display: flex;
+    flex-direction: row;
+}
+
+#column1-50{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+
+/* home page button */
+#home-page50{
+    font-family:'Lobster Two', cursive;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 40px;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+font-size: 30px;
+color: aliceblue;
+-webkit-text-stroke: 1.3px;
+    -webkit-text-stroke-color: #D88498;
+border: 4px solid #D88498;
+background-color: #F6CCD0;
+padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a #home-page50:hover {
+    color: #F6CCD0;
+}
+/* #2A326D */
+
+a #home-page50:hover {
+    background-color: aliceblue;
+    transition: .3s;
+}
+
+a #home-page50:active {
+    background-color: #F6CCD0;
+}
+
+.pink-column{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 7px solid #F6CCD0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yellow1-column{
+box-sizing: border-box;
+border: 7px solid #FDEEB3;
+margin-left: 15px;
+margin-bottom: 10px;
+margin-top: 75px;
+}
+
+#yellow2-column{
+box-sizing: border-box;
+border: 7px solid #FDEEB3;
+margin-left: 15px;
+margin-bottom: 10px;
+}
+
+#green1-column{
+box-sizing: border-box;
+border: 7px solid #96AB59;
+margin-left: 15px;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+
+#green2-column{
+    box-sizing: border-box;
+    border: 7px solid #96AB59;
+    margin-left: 15px;
+    margin-bottom: 10px; 
+    }
+
+    /* #P-50{
+     
+    }
+     */
+#row1-50{
+    display: flex;
+    flex-direction: row;
+}
+
+#column2-50{
+    display: flex;
+    flex-direction: column;
+}
+
+#column3-50{
+    display: flex;
+    flex-direction: column;
+}
+ #column4-50{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+ }
+
+#column5-50{
+margin-right: 15px;
+margin-left: 300px;
+}
+
+ #title-50{
+    font-family:'Lobster Two', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+font-size: 120px;
+color: #F6CCD0;
+-webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: #D88498;
+ }
+
+ #row2-50{
+    display: flex;
+    flex-direction: row;
+ }
+
+ #row3-50{
+    display: flex;
+    flex-direction: row;
+ }
+/* header
+font-family: 'Lobster', cursive; */
+
+/* regular font
+font-family:  */
+
+
+/* END */
+
+
+
+
+/* start of 1960 css */
+
+#fourth-page{
+background: #FFEA96;
+}
+
+#row1-60{
+    display: flex;
+    flex-direction: row;
+}
+
+#row2-60{
+    display: flex;
+    flex-direction: row; 
+}
+
+#column1-60{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#row3-60{
+    display: flex;
+    flex-direction: row; 
+}
+
+#column2-60{
+    display: flex;
+    flex-direction: column;
+}
+
+/* header
+font-family: 'Gravitas One', cursive; */
+
+/* regular font
+font-family:  'Syncopate', sans-serif;*/
+
+
+
+
+
+
+
+/* start of 1970 css */
+
+#fifth-page{
+    background: #C95514;
+    }
+
+    .background-70{
+        justify-content: center;
+  display: flex;
+  height: 100px;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/Background-70.png");
+  background-repeat: no-repeat;
+    }
+    
+#title-70{
+    
+}
+
+    #row1-70{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #row2-70{
+        display: flex;
+        flex-direction: row; 
+    }
+    
+    #column1-70{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    #row3-70{
+        display: flex;
+        flex-direction: row; 
+    }
+    
+    #column2-70{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* header
+font-family: 'Monoton', cursive; */
+
+/* regular font
+font-family: 'Roboto Condensed', sans-serif;
+  */
+
+
+
+  

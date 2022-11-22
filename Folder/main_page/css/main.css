@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+/* main page css */
+
+body{
+    background-image: url(../images/glasses.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+} 
+
+#header1 {
+    height: 400px;
+    position: relative;
+    user-select: none;
+}
+
+#HP1 {
+    left: 0px;
+    margin-left: 70px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0px;
+}
+
+#HP2 {
+    right: 0px;
+    margin-right: 165px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0px;
+}
+
+.main-page-button{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    line-height:200px;
+}
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 500px;
+    width: 100%;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 50px;
+    border-radius: 360px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a .circle1:hover {
+    color: rgb(255, 255, 255);
+}
+
+a .circle1:hover {
+    background-color: rgb(136, 136, 136);
+    transition: .3s;
+}
+a .circle1:active{
+    background-color: rgb(75, 75, 75);
+}
+
+/* end of main page css */
